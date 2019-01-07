@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screen/loginScreen.dart';
+import 'screen/emptyScreen.dart';
 
 class App extends StatelessWidget {
 
@@ -9,7 +10,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: LoginScreen(),
+      home: EmptyScreen(),
     );
   }
 }
